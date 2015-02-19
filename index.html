@@ -1,11 +1,75 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta encoding="utf-8">
-    <title>Ma première page web</title>
-  </head>
-  <body>
-    <h1>Ma première page web hébergée par GitHub</h1>
-    okok
-  </body>
+﻿<html>
+    <head>
+		
+		<link href="style1.css" rel="stylesheet"/>
+        <title>Page site web TD2</title>
+        <meta charset="utf-8" />
+        
+    </head>
+    <body>
+	<header>
+		Voici mon site !
+    </header>
+	 
+	<div class="navigation">
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+					<ul>
+						<li><a href="#donnees">Données personnelles</a></li>
+						<li><a href="#cours">Liste cours</a></li>
+						<li><a href="#loisirs">Liste loisirs</a></li>
+					</ul>
+				</li>
+				<li><a href="cv.html">CV</a></li>
+			</ul>
+		</nav>
+	
+				<div class="logo">
+				<img src="http://www.uvsq.fr/images/logo.png" />
+				</div>
+ 
+			<section id="donnees" >
+		
+			<h1><strong> Données personnelles </strong></h1>
+			
+				<ul class="puce_donnees">
+					<li>Kane</li>
+					<li>Boubacar</li>
+					<li>20 ans</li>
+					<li>Etudiant</li>
+				</ul>
+				
+		</section>
+	
+		<section id="cours">
+			<h1><strong> Liste cours </strong></h1>
+				
+					<ul class="puce_cours">
+						<li><a href="http://e-campus2.uvsq.fr/cours/chrilema/Cours-chrilema-20150115170655">BI 202</a></li>
+						<li><a href="http://e-campus2.uvsq.fr/cours/florrich/Cours-florrich-20130213160632">BI 203</a></li>
+						<li><a href="http://e-campus2.uvsq.fr/cours/lucadefe/Cours-lucadefe-20150106155628">IN 202</a></li>
+						<li><a href="http://e-campus2.uvsq.fr/cours/sandvial/Cours-sandvial-20150120145327">IN 200</a></li>
+						<li><a href="http://e-campus2.uvsq.fr/cours/verochaf/Cours-verochaf-20141216063421">CH 201</a></li>
+						<li><a href="http://e-campus2.uvsq.fr/cours/sophcroi/Cours.sophcroi.2012-01-15.2136">AN 200</a></li>
+						<li>MA 200</li>
+					</ul>
+				
+		</section>
+	
+		<section id="loisirs">
+				<h1><strong>Liste loisirs</strong></h1>
+					
+						<ul class="puce_loisirs">
+							<li>Football</li>
+							<li>Cinéma</li>
+							<li>Cuisine</li>
+						</ul>
+					
+		</section>
+		
+	</div>
+	
+	<footer>Copyright Kane Boubacar 2015.</footer>
+    </body>
 </html>

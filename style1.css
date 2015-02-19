@@ -1,0 +1,154 @@
+body 	{
+			background-image : url("http://images.forwallpaper.com/files/thumbs/preview/25/251709__texture-wallpaper-gray-background-patterns_p.jpg") ;
+			display: inline-flex;
+			flex-direction: column;
+		}
+
+header	{
+			border : 5px outset #aa6000 ;
+			text-shadow : 1px 1px 1px #F68B00 ;
+			border-radius: 5px;
+			font-size: 3em;
+			transition-duration: 1s;
+			text-align:center;
+			margin: 5px;
+		}
+header:hover {color:white;}
+
+.navigation	{
+				display : block;
+				flex: 1;
+				display: flex;
+				flex-direction: row;
+			}
+
+ul {list-style-type: none;}
+
+.logo	{
+			margin: 5px;
+		}
+h1	{	
+		color : black ;
+		border : 5px outset grey ;
+		box-shadow : 2px 2px 1em white ;
+		font-family : "Times New Roman" sans-sérif sérif ;
+		font-weight : 0.5em ;
+		font-size : 1cm;
+		text-shadow : 1px 1px 1px white;
+		text-align: center;
+		-webkit-transition-property: color;
+		transition-duration: 1s;
+		margin: 10px;
+	}
+h1:hover {color: #F68B00;}
+
+h2 	{
+		text-align : center;
+	}
+
+txt { font-style: bold;}
+#donnees	{
+				border: 1px solid #F68B00;
+				border-radius: 5px;
+				display : block ;
+				flex : 1;
+			}
+			
+#cours	{
+			border: 1px solid #F68B00;
+			border-radius: 5px;
+			display : block ;
+			flex : 1;
+		}
+
+#loisirs	{
+				border: 1px solid #F68B00;
+				border-radius: 5px;
+				display : block ;
+				flex : 1;
+			}
+
+#Experience_professionnelle	{
+								border: 1px solid #F68B00;
+								border-radius: 5px;
+								flex : 1;
+							}
+							
+#Formation	{
+				border: 1px solid #F68B00;
+				border-radius: 5px;
+				flex : 1;
+			}
+			
+#Caracteristique	{
+						border: 1px solid #F68B00;
+						border-radius: 5px;
+						flex : 1;
+					}
+
+nav {	
+		list-style: none;
+		border: 1px solid #F68B00;
+		border-radius: 5px;
+		background: rgba(230, 230, 230, 0.3);
+		margin: 5px;
+		padding-right: 5px;
+		padding-left: 0;
+	}
+
+nav ul {
+  list-style-type: none;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+nav a 	{ 
+			border-top: 1px solid rgba(255,255,255,0.3); 
+			border-bottom: 1px solid rgba(0,0,0,0.1); 
+			text-decoration: none;
+			display: block;
+			color: white;
+			padding-left: 4px;
+			padding-right: 4px;
+		}
+		
+nav a:hover 	{
+				background: rgba(246,139,0,0.7);
+				border-radius: 3em;
+				text-decoration: none;
+			}
+
+footer	{
+			position: absolute:
+			bottom:0;
+			text-align: right;
+			border-top : 2px solid #F68B00;
+			margin-top: 1cm;
+		}
+
+
+@media (max-width: 1350px) 	{
+								.navigation	{
+												display : block;
+												flex: 1;
+												display: flex;
+												flex-direction: column;
+											}
+								.logo	{	
+											display: flex;
+											justify-content: center;
+											margin: 5px;
+										}
+								nav a	{
+											display: inline-block;
+											width: 6cm;
+											padding-left: 10px;
+										}
+							}
+
+section 	{
+			text-align: center;
+			margin: 10px;
+			width: 100%
+		}
